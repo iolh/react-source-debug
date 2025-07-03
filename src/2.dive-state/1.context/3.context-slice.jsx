@@ -1,9 +1,9 @@
 // context 跨级传值
 import { useContext, createContext, useState } from "react";
 
-// const Context = createContext();
-const Context1 = createContext();
-const Context2 = createContext();
+// const Context = createContext(null);
+const Context1 = createContext(null);
+const Context2 = createContext(null);
 
 function Child1() {
   console.log("Child1 Rendered");
